@@ -1,4 +1,8 @@
 def merge(list1, list2):
+    """
+    Merges two sorted Lists in increasing order.
+    Returns: Merged List formed by merging list1 and list2.
+    """
     (m, n) = (len(list1), len(list2))  # Obtaining the length of both the list
     (i, j) = (0, 0)
     merged_list = []
